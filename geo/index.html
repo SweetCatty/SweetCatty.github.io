@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Click.</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			navigator.geolocation.getCurrentPosition(showPosition); // Запрашиваем местоположение, и в случае успеха 		вызываем функцию showPosition
+ 			function showPosition(position) {
+    		/* Выводим координаты */
+    		document.write("Широта: " + position.coords.latitude + "<br />");
+   			document.write("Долгота: " + position.coords.longitude);
+  }
+
+		</script>
+	</body>
+</html>
