@@ -20,7 +20,7 @@
 .blender_projects{
 	margin-top: 20px;
 }
-.blender_projects>button{
+.blender_projects>a>button{
 	margin:5px;
 	border: 0px;
 	font-size: 1em;
@@ -29,7 +29,7 @@
 	background: #ff7a0e;
 	transition: .3s linear;
 }
-.blender_projects>button:hover{
+.blender_projects>a>button:hover{
 	background: transparent;
 	color: #ff7a0e;
 	opacity: .9;
