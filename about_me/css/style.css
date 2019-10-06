@@ -44,7 +44,7 @@ html {
 		font-size: 1.2em;
 	}
 }
-@media screen and (max-width: 530px) {
+/* @media screen and (max-width: 530px) {
 	.menu_anchor{
 		font-size: 0.8em;
 		background: #fff;
@@ -57,4 +57,4 @@ html {
 	.menu_anchor{
 		font-size: 0.35em;
 	}
-}
+} */
