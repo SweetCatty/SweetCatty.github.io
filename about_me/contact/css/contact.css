@@ -8,7 +8,7 @@
 }
 .content_text{
 	font-family: 'Anonymous Pro', monospace;
-	font-size: 1.2em;
+	font-size: 2em;
 }
 .info_ul{
 	list-style: none;
@@ -38,4 +38,11 @@
 }
 .gmail:hover{
 	color: #fa132c;
+}
+@media screen and (max-width: 550px){
+	.head_text{
+		font-size: 5em;
+	}
+	.info_li>p>a{
+		font-size: 1.4em;
 }
