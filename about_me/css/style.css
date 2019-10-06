@@ -44,6 +44,21 @@ html {
 		font-size: 1.2em;
 	}
 }
+@media screen and (max-width: 410px) {
+	.menu_anchor{
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 340px) {
+	.menu_anchor{
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 250px) {
+	.menu_anchor{
+		font-size: .6em;
+	}
+}
 /* @media screen and (max-width: 530px) {
 	.menu_anchor{
 		font-size: 0.8em;
