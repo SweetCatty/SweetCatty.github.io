@@ -1,0 +1,37 @@
+main{
+	margin: 60px 0px 0px 30px;
+}
+.name {
+	width: 820px;
+}
+.name_span{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4.5em;
+	letter-spacing: 20px;
+}
+@media screen and (max-width: 800px){
+	.name_span{
+		font-size: 3em;
+		letter-spacing: 20px;
+	}
+}
+@media screen and (max-width: 530px){
+	.name_span{
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 430px){
+	.name_span{
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #ff320a;
+		letter-spacing: 10px;
+	}
+}
+@media screen and (max-width: 300px){
+	.name_span{
+		font-size: .8em;
+		letter-spacing: none;
+	}
+}

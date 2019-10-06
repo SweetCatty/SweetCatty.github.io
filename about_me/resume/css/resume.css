@@ -1,0 +1,65 @@
+.main {
+	margin: 40px 20px 0px 20px;
+}
+.head_text{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.5em;
+	margin-bottom: 20px;
+}
+.content_text{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 1.2em;
+}
+.blender_wrapper{
+	color: #ff7a0e;
+	text-decoration: none;
+	font-weight: bold;
+}
+.blender_wrapper:hover{
+	text-decoration: underline;
+}
+.myProjects_wrapper{
+	font-style: italic;
+	text-decoration: none;
+}
+.myProjects_wrapper:hover{
+	text-decoration: underline;
+}
+.sp_wrapper{
+	color: #f20b0b;
+	text-decoration: none;
+	font-weight: bold;
+}
+.sp_wrapper:hover{
+	text-decoration: underline;
+}
+.unity_wrapper{
+	text-decoration: none;
+	font-weight: bold;
+}
+.unity_wrapper:hover{
+	text-decoration: underline;
+}
+.github_wrapper{
+	color: #05c909;
+	text-decoration: none;
+	font-weight: bold;
+}
+.github_wrapper:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 530px){
+	.head_text{
+		font-size: 1.9em;
+	}
+}
+@media screen and (max-width: 360px){
+	.content_text{
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 300px){
+	.content_text{
+		font-size: .8em;
+	}
+}

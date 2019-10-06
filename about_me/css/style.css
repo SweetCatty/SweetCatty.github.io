@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+html {
+	background: url('image/rain.jpg') no-repeat center center;
+	min-height: 100%;
+	background-size: cover;
+}
+.menu {
+	float: right;
+	margin: 20px 30px 0px 0px;
+}
+.menu_ul {
+	list-style: none;
+	display: flex;
+}
+.menu_li {
+	margin-left: 50px;
+}
+.menu_anchor {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.2em;
+	cursor: pointer;
+	transition: .2s linear;
+}
+.menu_anchor:hover {
+	opacity: .7;
+}
+.clear {
+	clear: both;
+}
+.adapt_img{
+	max-width: 100%;
+	margin: auto;
+}
+@media screen and (max-width: 800px) {
+	.menu_anchor{
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 530px) {
+	.menu_anchor{
+		font-size: 0.8em;
+		background: #fff;
+		color: #626787;
+		border-radius: 1px;
+		padding: 2px;
+	}
+}
+@media screen and (max-width: 410px) {
+	.menu_anchor{
+		font-size: 0.35em;
+	}
+}

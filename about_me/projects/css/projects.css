@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	margin: 40px 20px 0px 20px;
+}
+.head_text{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3.5em;
+}
+.blender{
+	color: #ff7a0e;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.2em;
+	display: block;
+	margin-top: 10px;
+}
+.blender_projects{
+	margin-top: 20px;
+}
+.blender_projects>button{
+	margin:5px;
+	border: 0px;
+	font-size: 1em;
+	padding: 0.3em;
+	color: #fff;
+	background: #ff7a0e;
+	transition: .3s linear;
+}
+.blender_projects>button:hover{
+	background: transparent;
+	color: #ff7a0e;
+	opacity: .9;
+}
+.html_css{
+	color: #5545d5;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.1em;
+	display: block;
+	margin-top: 20px;
+}
+.html_css_projects{
+	margin-top: 20px;
+}
+.html_css_projects>a>button{
+	font-size: 1.35em;
+	border: 0px;
+	background: #5545d5;
+	padding: 0.3em;
+	transition: .4s linear;
+	
+}
+.html_css_projects>a>button:hover{
+	background: transparent;
+	color: #5545d5;
+	opacity: .9;
+}
+@media screen and (max-width: 530px){
+	.head_text{
+		font-size: 1.9em;
+	}
+	.blender, .html_css {
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 400px){
+	.blender_projects>button, .html_css_projects>a>button{
+		font-size: .5em;
+	}
+}
