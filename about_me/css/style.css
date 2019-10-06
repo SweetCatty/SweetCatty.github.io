@@ -49,7 +49,7 @@ html {
 		font-size: 1em;
 	}
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
 	.menu_anchor{
 		font-size: .8em;
 	}
@@ -59,17 +59,3 @@ html {
 		font-size: .6em;
 	}
 }
-/* @media screen and (max-width: 530px) {
-	.menu_anchor{
-		font-size: 0.8em;
-		background: #fff;
-		color: #626787;
-		border-radius: 1px;
-		padding: 2px;
-	}
-}
-@media screen and (max-width: 410px) {
-	.menu_anchor{
-		font-size: 0.35em;
-	}
-} */
