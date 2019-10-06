@@ -39,11 +39,3 @@
 .gmail:hover{
 	color: #fa132c;
 }
-@media screen and (max-width: 530px){
-	.head_text{
-		font-size: 1.9em;
-	}
-	.info_li>p>a{
-		font-size: .6em;
-	}
-}
