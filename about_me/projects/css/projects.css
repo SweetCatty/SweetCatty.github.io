@@ -65,8 +65,3 @@
 		font-size: 1.5em;
 	}
 }
-@media screen and (max-width: 400px){
-	.blender_projects>button, .html_css_projects>a>button{
-		font-size: .5em;
-	}
-}
