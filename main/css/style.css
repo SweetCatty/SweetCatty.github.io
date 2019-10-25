@@ -1,0 +1,76 @@
+.content{
+	margin: 0 1%;
+	padding-bottom: 215px;
+}
+.advertising{
+	display: block;
+	margin-top: 60px;
+	height: 470px;
+	background-color: #2bcc46;
+}
+.content-text{
+	margin: 77px 0px 0px 25px;
+	display: inline-block;
+}
+.content-text-strong{
+	font-family: Roboto, sans-serif;
+	font-size: 4em;
+}
+.content-text-normal{
+	display: block;
+	margin-top: 20px;
+	font-family: Roboto, sans-serif;
+	font-size: 1.3em;
+	color: #fff;
+}
+.domclick{
+	font-family: Helvetica, sans-serif;
+}
+.domclick:hover{
+	text-decoration: underline;
+}
+.content-btn{
+	padding: 17px 42px;
+	margin-top: 115px;
+	font-family: Roboto, sans-serif;
+	font-size: 1.5em;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2bcc46;
+	transition: .2s linear;
+}
+.content-btn:hover{
+	cursor: pointer;
+	background-color: #f5f5f5;
+	color: #1fab2f;
+}
+.products{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	height: 220px;
+}
+.products-wrapper{
+	padding: 30px;
+	width: 330px;
+	height: 100%;
+	background-color: #2bcc46;
+	font-family: Roboto, sans-serif;
+	position: relative;
+}
+
+.products_header{
+	font-size: 1.7em;
+	text-align: center; 
+}
+.goods_box{
+	position: absolute;
+	bottom: 0px;
+}
+.goods_text{
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	padding-left: 8px;
+	border-left: 4px solid #fff;
+	margin-bottom: 20px;
+}
