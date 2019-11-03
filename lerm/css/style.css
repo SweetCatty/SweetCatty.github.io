@@ -49,6 +49,7 @@ ul{
 .photo_wrapper{
 	display: flex;
 	justify-content: space-between;
+	padding: 20px;
 }
 .photo_edit{
 	height: 250px;
