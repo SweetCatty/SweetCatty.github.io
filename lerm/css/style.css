@@ -45,16 +45,13 @@ ul{
 .headtext{
 	color: #666;
 }
-
-.photo_wrapper{
-	display: flex;
-	justify-content: space-between;
-}
 .photo_edit{
 	height: 250px;
 	border: 4px solid #c4a080;
 	border-radius: 1px;
 	transition: .35s linear;
+	display: block;
+   	margin: 40px auto;
 }
 .photo_edit:hover{
 	transform: rotate(360deg);
