@@ -1,0 +1,28 @@
+main{
+	width: 775px;
+	margin: 140px 0px 0px 40px;
+}
+.main_wrap{
+	
+	color: #F5F5F5
+}
+.greeting{
+	font-size: 4em;
+	font-weight: lighter;
+	color: #fafafa;
+}
+.content{
+	margin-top: 30px;
+	width: 730px;
+}
+.content>p{
+	font-size: 1.0733em;
+	margin: 10px 0px;
+	line-height: 150%;
+}
+.btn_wrap{ 
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 40px;
+	width: 460px;
+}

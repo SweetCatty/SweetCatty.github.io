@@ -1,0 +1,18 @@
+.content{
+	margin: 0 10%;
+	margin-top: 60px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.content_box>ul, .content_box>ul{ 
+	list-style: none;  
+}
+.content_box>ul>li>a, .content_box>ul>li>a{
+	font-size: 1.3em;
+	color: #ebebeb;
+	letter-spacing: 1px;
+	float: left;
+	margin: 8px 0px;
+}
+.underline::before, .underline::after{ transition: .1.5s linear }

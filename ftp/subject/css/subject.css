@@ -1,0 +1,14 @@
+.content{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 75px;
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+.os,.web{ font-weight: lighter; }
+.os>a,.web>a{ 
+	color: #fafafa; 
+	display: inline-block;
+}
+.web{ margin-top: 20px; }
